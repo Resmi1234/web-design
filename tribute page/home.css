@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  /* position: fixed; */
+  width: 100%;
+  height: 100vh;
+  /* background: url(./apj.jpg); */
+  background-color: black;
+  /* background-position: center; */
+  /* background-size: cover; */
+}
+
+.navbar {
+  width: 100%;
+  height: 40px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  color: rgb(241, 106, 15);
+  height: 20px;
+}
+.icon p {
+  width: 600px;
+  height: 20px;
+  font-size: 30px;
+  font-weight: 700px;
+  font-family: "Times New Roman";
+  margin-left: 10px;
+  padding: 20px;
+  float: left;
+  /* width: 50px; */
+  /* height: 2%; */
+}
+.menu {
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  padding-bottom: 10px;
+  list-style: none;
+  /* margin-left: 30px; */
+  margin-right: 50px;
+  /* margin-top: px; */
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgb(121, 96, 96);
+}
+.image {
+  background: url("./00a6cfce2060c951ae7dad14a1af956b.jpg");
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 60px;
+  margin-left: 200px;
+  border-radius: 50px;
+}
+
+.content {
+  color: yellow;
+  margin-left: 700px;
+  margin-top: -300px;
+}
+
+.content .title {
+  color: #1f1f25;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content title span {
+  color: #fd4766;
+}
+.content p h {
+  width: 60%;
+  color: yellow;
+}

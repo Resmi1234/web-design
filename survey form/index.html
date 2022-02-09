@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>survey form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header id="title">
+      <h1>Survey Form</h1>
+    </header>
+    <section>
+      <div class="main">
+        <div id="description">
+          <p>Fill the form to continue </p>
+        </div>
+        <form id="survey-form">
+          <div class="container">
+            <div class="person">
+              <label>Name</label>
+            </div>
+            <div class="content">
+              <input type="text" name="Name" placeholder="Enter your name"/>
+            </div>
+          </div>
+          <div class="container">
+            <div class="person">
+              <label>Email</label>
+            </div>
+            <div class="content">
+              <input type="email" name="Email" placeholder="Enter your email" />
+            </div>
+          </div>
+          <div class="container">
+            <div class="person">
+              <label>Age</label>
+            </div>
+            <div class="content">
+              <input type="number" name="Age" placeholder="Age" />
+            </div>
+          </div>
+          <div class="container">
+            <div class="person">
+              <label>Which option best describes your current role?</label>
+            </div>
+            <div class="select">
+              <select id="select-box">
+                <option>Student</option>
+                <option>Job</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="container">
+            <div class="person">
+              <label>
+                How likely is that you would recommend futura Labs to a friend?
+              </label>
+            </div>
+            <div class="content">
+              <div>
+                <input type="radio" name="suggest" value="Definiitely" />
+                <label>Definitely</label>
+              </div>
+              <div>
+                <input type="radio" name="suggest" value="Maybe" />
+                <label>Maybe</label> </div>
+              <div>
+                <input type="radio" name="suggest" value="Not sure" />
+                <label>Not sure</label></div>
+            </div><br><br>
+          <div class="container">
+            <div class="person">
+              <label>Educational Qualification</label>
+            </div>
+            <div class="select">
+              <select id="select-box">
+                <option>Select an option</option>
+                <option>Btech</option>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>Other</option>
+
+              </select>
+            </div>
+          </div>
+          <div class="container">
+            <div class="person">
+              <label>
+                which course do you want to choose?
+              </label>
+            </div>
+            <div class="content">
+              <div>
+              <input type="radio" name="project" value="Front-end Development" />
+              <label>Front-end Development</label></div>
+              <div>
+              <input type="radio" name="project" value="Back-end Development" />
+              <label>Back-end Development</label></div>
+              <div>
+              <input type="radio" name="project" value="Full-stack Development" />
+              <label>Full-stack Development</label></div>
+            </div>
+          </div>
+          <div class="btn">
+            <button>Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
